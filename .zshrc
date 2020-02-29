@@ -104,3 +104,4 @@ source $ZSH/oh-my-zsh.sh
 
 [ -f ~/.dotfiles/.aliases ] && source ~/.dotfiles/.aliases # Loads custom aliases
 
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh # Loads fzf
