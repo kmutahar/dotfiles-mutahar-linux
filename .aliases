@@ -1,0 +1,17 @@
+# Shortcuts
+alias sha256="shasum -a 256"
+alias sha512="shasum -a 512"
+
+# Easier navigation
+alias ~="cd ~"
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias -- -="cd -"   # Go to previous dir with -
+
+# Concatenate and print content of files (add line numbers)
+alias catn="cat -n"
+
+# Location Shortcuts
+alias dotfiles="cd ~/.dotfiles"
