@@ -20,5 +20,5 @@ alias dotfiles="cd ~/.dotfiles"
 alias update="sudo apt-get update"
 alias upgrade="sudo apt-get upgrade && sudo apt-get dist-upgrade"
 alias updatethefuck="pip3 install thefuck --upgrade #thefuck"
-alias updatefzf="cd /home/ubuntu/.fzf && git pull && ./install"
+alias updatefzf="cd /home/mmutahar/.fzf && git pull && ./install"
 
