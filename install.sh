@@ -23,3 +23,11 @@ ln -sf ~/.dotfiles/.bash_logout ~/.bash_logout
 ln -sf ~/.dotfiles/.bashrc ~/.bashrc
 ln -sf ~/.dotfiles/.profile ~/.profile
 ln -sf ~/.dotfiles/.zshrc ~/.zshrc
+
+# Install Lazygit
+sudo add-apt-repository ppa:lazygit-team/release
+sudo apt-get update
+sudo apt-get install lazygit
+
+# Install Nextdns
+sh -c "$(curl -sL https://nextdns.io/install)"
